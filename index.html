@@ -1,20 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Max Profit Problem</title>
+<title>Mars Land Optimizer</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h2>Max Profit Problem</h2>
+<div class="container">
 
-<input id="timeInput" placeholder="Enter time units">
-<button onclick="calculate()">Calculate</button>
+<h1>Mars Land Earnings Calculator 🚀</h1>
 
-<div id="result"></div>
+<p>Enter total time units to calculate the best property mix.</p>
+
+<input
+id="timeInput"
+type="number"
+placeholder="Enter Time Units"
+min="1"
+/>
+
+<button onclick="calculate()">Calculate Earnings</button>
+
+<div id="result" class="result-box"></div>
+
+</div>
 
 <script src="script.js"></script>
 
